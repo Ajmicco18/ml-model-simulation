@@ -1,2 +1,2 @@
-# cbb-matchup-predictions
-A Machine Learning pipeline designed to predict hypothetical matchups between any two college basketball teams. 
+# Machine Learning Model 
+An application built using Next.js with a Django Python backend designed to enable users to upload a dataset, select a machine learning model and set its parameters and view the results of the model. 
