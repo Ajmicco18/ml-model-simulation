@@ -4,17 +4,15 @@ export default function Home() {
 
   return (
     <>
-      <Box>
-        <Heading>
-          Welcome to ML Model Simulation
+      <Box display={"flex"} flexDirection={"column"} gap={4} width={"100%"} margin={"auto"} justifyContent={"center"} alignItems={"center"}>
+        <Heading size={"3xl"} textAlign={"center"}>
+          Welcome to ML Model Simulation!
         </Heading>
-        <Heading size={"md"}>
-          <Link href={"/Landing"}>
-            <Box>
-              <Text color={"white"} _hover={{ textDecoration: "underline", textDecorationColor: "#C80815" }}>Get Started!</Text>
-            </Box>
-          </Link>
-        </Heading>
+        <Link href={"/Landing"} className="main-button">
+          <Box>
+            <Text>Get Started!</Text>
+          </Box>
+        </Link>
       </Box>
     </>
   );
